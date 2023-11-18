@@ -293,15 +293,15 @@ h4 {
     text-align: center;
 }
 
-
-
-.event-msg {
-    color: rgb(3, 4, 94);
-    font-family: Rock Salt, 'Bradley Hand', sans-serif;
-    font-size: 100px;
+.event-img {
+    max-width: 500px;
+    max-height: 200px;
 }
 
-
+.container {
+    font-family: Autour One, 'Bradley Hand', sans-serif;
+    font-size: 20px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
