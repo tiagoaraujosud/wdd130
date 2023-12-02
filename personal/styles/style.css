@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Rock+Salt&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif; font-size: 18px; color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Rock Salt', sans-serif; color: #1d3557} 
+
+p { background-color:#1d3557; padding: 1em; margin: 0; }
+
+header img {
+    grid-column: 1;
+}
+
 header {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -23,7 +35,7 @@ nav a {
     padding: 5%;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     background-color: #1d3557;
     color: #D4AC0D
 }
@@ -71,17 +83,12 @@ footer {
     background-color: #ACC8E5
 }
 
-footer p {
+footer a {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
     background-color: #ACC8E5;
     color: black;
-}
-
-footer .site-plan-link:hover {
-    background-color: #1d3557;
-    color: #D4AC0D
 }
 
 .social {
@@ -102,16 +109,6 @@ footer .site-plan-link:hover {
 #programming {
     display: grid;
     grid-template-columns: 1fr;
-}
-
-header img {
-    grid-column: 1;
-}
-
-.mission-main {
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
 }
 
 .mission-title .family-1 h1 {
@@ -163,7 +160,6 @@ header img {
 }
 
 .family-1 {
-    grid-column: 100%;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     text-align: center;
@@ -195,10 +191,6 @@ header img {
 
 .family-main img {
     width: 100%;
-}
-
-h1 {
-    font-family: Rock Salt, 'Bradley Hand', sans-serif;
 }
 
 p {
