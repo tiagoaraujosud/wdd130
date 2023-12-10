@@ -157,7 +157,11 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 5%;
+    gap: 1%;
+}
+
+.family-main p {
+    min-height: 90px;
 }
 
 .family-1 {
@@ -194,6 +198,10 @@ footer a {
     width: 100%;
 }
 
+.mission-main p {
+    min-width: 500px;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     background-color:#1d3557;
@@ -213,7 +221,6 @@ p {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
     font-size: 24px; /* Increased font size */
